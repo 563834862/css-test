@@ -1,14 +1,62 @@
 <html>
     <head>
         <style>
+            .a{
+                background-color: yellow;
+            }
             .b{
-                background-color: red;
+                background-color: #00ff00;
+            }
+            .c{
+                background-color: transparent;
+            }
+            .d{
+                background-color: rgb(250,0,255);
+            }
+            .e{
+                background-color: inherit;
+            }
+            button{
+                /* 鼠标放上出现手指 */
+                cursor: pointer;
+                width: 108px;
+                height: 44px;
+                border-radius: 10px 10px 10px 10px;
+                font-size: 17px;
+                border: none;
+                color: white;
+                box-shadow: none;
+                background-color: #4e6ef2;
+                outline: 0;
+            }
+            button:hover{
+                background-color: #4662d9;
             }
         </style>
     </head>
     <body>
-        <div class="b">
-            sss
+        <!-- 1、本例演示如何为元素设置背景颜色。
+            背景色5种方式：
+        -->
+        <div class="a">
+            第一种：yellow  英文单词
         </div>
+        <div class="b">
+            第二种: #00ff00  16进制数
+        </div>
+        <div class="c">
+            第三种: transparent  透明
+        </div>
+        <div class="d">
+            第四种: rgb(250,0,255)  rgb值
+        </div>
+        <div class="e">
+            第四种: rgb(250,0,255)  rgb值
+        </div>
+        <h1>使用场景</h1>
+        <h2>按钮背景色</h2>
+        <button>按钮</button>
+        <h2>按钮背景色</h2>
+        <button>按钮</button>
     </body>
 </html>
